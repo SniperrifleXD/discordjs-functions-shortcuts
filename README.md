@@ -3,7 +3,7 @@
 <p align="center">
     <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-javascript-blue.svg?style=flat-square" alt="JavaScript Style Guide"/></a>
    <img src="https://img.shields.io/npm/v/discordjs-functions-shortcuts.svg?style=flat-square" alt="NPM package"/>
-    <a href="https://travis-ci.org/SniperrifleXD/discordjs-functions-shortcuts"><img src="https://img.shields.io/travis/SniperrifleXD/main.svg?style=flat-square" alt="Travis Build Status"/></a></a>
+    <img alt="GitHub Workflow Status (branch)" src="https://img.shields.io/github/workflow/status/SniperrifleXD/discordjs-functions-shortcuts/CodeQL/main">
 </p>
 
 <p align="center">
