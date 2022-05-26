@@ -1,0 +1,17 @@
+{
+  "name": "discordjs-shortcuts-functions",
+  "version": "1.0.0",
+  "description": "A simple module with shortcuts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SniperrifleXD",
+  "license": "MIT",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^13.7.0",
+    "figlet": "^1.5.2"
+  },
+  "devDependencies": {}
+}
