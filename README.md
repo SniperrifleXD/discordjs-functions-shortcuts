@@ -1,6 +1,10 @@
-<h1 align="center">Shortcuts module.</h1>
+<h1 align="center">discordjs-functions-shortcuts</h1>
 
-
+<p align="center">
+    <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-javascript-blue.svg?style=flat-square" alt="JavaScript Style Guide"/></a>
+   <img src="https://img.shields.io/npm/v/discordjs-functions-shortcuts.svg?style=flat-square" alt="NPM package"/>
+    <a href="https://travis-ci.org/SniperrifleXD/discordjs-functions-shortcuts"><img src="https://img.shields.io/travis/SniperrifleXD/main.svg?style=flat-square" alt="Travis Build Status"/></a></a>
+</p>
 
 <p align="center">
   <a href="#about">About</a> •
@@ -14,7 +18,7 @@
 
 ## About
 
-`discordjs-shortcuts-functions` is a shortcuts thingy I made for myself. So.... uh, yea.
+`discordjs-functions-shortcuts` is a shortcuts thingy I made for myself. So.... uh, yea.
 
 
 ---
@@ -26,14 +30,14 @@
 
 With node.js installed simply run: 
 ```bash
-# Run this to install discordjs-shortcuts-functions locally to your repository. 
-$ npm install discordjs-shortcuts-functions
+# Run this to install discordjs-functions-shortcuts locally to your repository. 
+$ npm install discordjs-functions-shortcuts
 
 # Alternatively, if you are using yarn:
-$ yarn add discordjs-shortcuts-functions
+$ yarn add discordjs-functions-shortcuts
 
-# To use discordjs-shortcuts-functions anywhere, run this code to install the package globally:
-$ npm install discordjs-shortcuts-functions -g
+# To use discordjs-functions-shortcuts anywhere, run this code to install the package globally:
+$ npm install discordjs-functions-shortcuts -g
 ```
 
 ---
@@ -41,7 +45,7 @@ $ npm install discordjs-shortcuts-functions -g
 
 ## Quickstart
 
-1) [Install `discordjs-shortcuts-functions`.](#installation)
+1) [Install `discordjs-functions-shortcuts`.](#installation)
 
 2) Write your code.
 
@@ -53,8 +57,8 @@ const { token } = require('./config.json');
 // Create a new client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
-// Require discordjs-shortcuts-functions
-const generatePort = require('discordjs-shortcuts-functions');
+// Require discordjs-functions-shortcuts
+const generatePort = require('discordjs-functions-shortcuts');
 
 const genPort = generatePort();
 
@@ -67,7 +71,7 @@ client.once('ready', () => {
 client.login(token);
 ```
 
-You are now using discordjs-shortcuts-functions!
+You are now using discordjs-functions-shortcuts!
 
 ---
 
@@ -80,4 +84,4 @@ You are now using discordjs-shortcuts-functions!
 
 ## License
 
-[MIT](https://github.com/SniperrifleXD/discordjs-shortcuts-functions/blob/master/LICENSE)
+[MIT](https://github.com/SniperrifleXD/discordjs-functions-shortcuts/blob/master/LICENSE)
