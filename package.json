@@ -1,6 +1,6 @@
 {
-  "name": "discordjs-shortcuts-functions",
-  "version": "1.0.0",
+  "name": "discordjs-functions-shortcuts",
+  "version": "1.0.3",
   "description": "A simple module with shortcuts",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,16 @@
     "discord.js": "^13.7.0",
     "figlet": "^1.5.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SniperrifleXD/discordjs-shortcuts-functions.git"
+  },
+  "keywords": [
+    "discord.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/SniperrifleXD/discordjs-shortcuts-functions/issues"
+  },
+  "homepage": "https://github.com/SniperrifleXD/discordjs-shortcuts-functions#readme"
 }
