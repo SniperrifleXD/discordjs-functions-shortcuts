@@ -4,11 +4,8 @@
 
 <p align="center">
   <a href="#about">About</a> •
-  
   <a href="#installation">Installation</a> •
   <a href="#quickstart">Quickstart</a> •
- 
- 
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
@@ -22,6 +19,7 @@
 
 ---
 
+## Requirements 
 
 
 ## Installation
@@ -37,7 +35,6 @@ $ yarn add discordjs-shortcuts-functions
 # To use discordjs-shortcuts-functions anywhere, run this code to install the package globally:
 $ npm install discordjs-shortcuts-functions -g
 ```
-That's it!
 
 ---
 
@@ -48,8 +45,7 @@ That's it!
 
 2) Write your code.
 
-    _Using `async/await` syntax:_
-    ```js
+```js
     // Require the necessary discord.js classes
 const { Client, Intents } = require('discord.js');
 const { token } = require('./config.json');
@@ -69,7 +65,7 @@ client.once('ready', () => {
 
 // Login to Discord with your client's token
 client.login(token);
-    ```
+```
 
 You are now using discordjs-shortcuts-functions!
 
@@ -78,10 +74,10 @@ You are now using discordjs-shortcuts-functions!
 
 
 ## Credits
-* [sniperriflexd](https://github.com/SniperrifleXD) - Creator
+* [sniperriflexd](https://github.com/SniperrifleXD) - Creator/Developer
 
 ---
 
 ## License
 
-[MIT](https://github.com/noblox/noblox.js/blob/master/LICENSE)
+[MIT](https://github.com/SniperrifleXD/discordjs-shortcuts-functions/blob/master/LICENSE)
