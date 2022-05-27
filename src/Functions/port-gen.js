@@ -1,5 +1,6 @@
 const chalk = require('chalk');
 var http = require('http');
+
 /**
  * Generate a random port
  * @returns {Promise<Number>} 
@@ -11,19 +12,15 @@ function portGen() {
                     text += selectFruit[Math.floor(Math.random() * selectFruit.length)];
                     
                     return text;
-                }
-                /**
- * Generate a random port
- *@returns {number}
- */
-const portlist = portGen() + portGen() + portGen() + portGen()
-console.log(portlist)
+                };
+
+const portlist = portGen() + portGen() + portGen() + portGen();
+          
 const app = http.createServer(function (req, res) {
   
   res.write(`Ready!`);
   res.end();
-}).listen(portlist, () => console.log(chalk.hex('#7cfc14').bold(`Listening to port: ${portlist}`)))
-  app.on('error', (e) => {//catches error
+}).listen(portlist, () => console.log(chalk.hex('#7cfc14').bold(`Listening to port: ${portlist}`))).on('error', (e) => {//catches error
   if (e.code === 'EADDRINUSE') {//if error = EADDRINUSE
     console.log(chalk.hex('#FF0505').bold('Address in use, retrying...'));
     setTimeout(() => {//CREATES A NEW PORT
@@ -33,6 +30,13 @@ const app = http.createServer(function (req, res) {
     }, 1000);
   }
 });
+/**
+ * 
+ * @type {number}
+ * 
+ *@typedef {generatePort}
+ */
+const generatePort = app;
 
+module.exports = generatePort;
 
-exports.generatePort = portlist
