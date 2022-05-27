@@ -1,3 +1,4 @@
+const chalk = require('chalk');
 var http = require('http');
 /**
  * Generate a random port
@@ -20,14 +21,14 @@ console.log(portlist)
 const app = http.createServer(function (req, res) {
   res.write(`Ready! - Ping is${m.createdTimestamp - message.createdTimestamp}ms. API Ping is ${Math.round(client.ws.ping)}ms`);
   res.end();
-}).listen(portlist)
-  app.on('error', (e) => {
-  if (e.code === 'EADDRINUSE') {
-    console.log('Address in use, retrying...');
-    setTimeout(() => {
+}).listen(portlist, () => console.log(chalk.hex('#7cfc14').bold(`Listening to port: ${portlist}`)))
+  app.on('error', (e) => {//catches error
+  if (e.code === 'EADDRINUSE') {//if error = EADDRINUSE
+    console.log(chalk.hex('#FF0505').bold('Address in use, retrying...'));
+    setTimeout(() => {//CREATES A NEW PORT
       app.close();
       app.listen(portlist);
-      console.log(`Listening to port: ${portlist}`)
+      console.log(chalk.hex('#7cfc14').bold(`Listening to port: ${portlist}`))
     }, 1000);
   }
 });
