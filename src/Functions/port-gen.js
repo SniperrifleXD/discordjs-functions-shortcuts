@@ -19,7 +19,8 @@ function portGen() {
 const portlist = portGen() + portGen() + portGen() + portGen()
 console.log(portlist)
 const app = http.createServer(function (req, res) {
-  res.write(`Ready! - Ping is${m.createdTimestamp - message.createdTimestamp}ms. API Ping is ${Math.round(client.ws.ping)}ms`);
+  
+  res.write(`Ready!`);
   res.end();
 }).listen(portlist, () => console.log(chalk.hex('#7cfc14').bold(`Listening to port: ${portlist}`)))
   app.on('error', (e) => {//catches error
