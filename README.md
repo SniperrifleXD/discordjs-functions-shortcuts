@@ -23,7 +23,6 @@
 
 ---
 
-## Requirements 
 
 
 ## Installation
@@ -60,7 +59,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 // Require discordjs-functions-shortcuts
 const generatePort = require('discordjs-functions-shortcuts');
 
-const genPort = generatePort();
+generatePort;
 
 // When the client is ready, run this code (only once)
 client.once('ready', () => {
