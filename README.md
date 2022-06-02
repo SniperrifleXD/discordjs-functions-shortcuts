@@ -110,3 +110,4 @@ You are now using discordjs-functions-shortcuts!
 ## License
 
 [MIT](https://github.com/SniperrifleXD/discordjs-functions-shortcuts/blob/master/LICENSE)
+
