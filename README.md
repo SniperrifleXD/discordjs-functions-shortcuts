@@ -71,7 +71,7 @@ client.once('ready', () => {
 client.login(token);
 ```
 
-## createServer Function
+## createSrvr Function
 ```js
     // Require the necessary discord.js classes
 const { Client, Intents } = require('discord.js');
