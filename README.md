@@ -85,9 +85,9 @@ const { token } = require('./config.json');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 // Require discordjs-functions-shortcuts
-const createServer = require('discordjs-functions-shortcuts');
+const createSrvr = require('discordjs-functions-shortcuts');
 
-createServer('example.html');
+createSrvr('example.html');
 
 // When the client is ready, run this code (only once)
 client.once('ready', () => {

@@ -3,4 +3,6 @@
 //Functions
 
 exports.generatePort = require('./Functions/port-gen.js');
-exports.createServer = require('./Functions/createServer.js')
+exports.createSrvr = require('./Functions/createServer.js');
+
+

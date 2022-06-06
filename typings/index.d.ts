@@ -6,12 +6,19 @@ import generatePort from '../src/index.js'
  */
 declare module "generatePort";
 /**
- * @example const generatePort = require('discordjs-functions-shortcuts');
- * generatePort;
+ * @example const createServer = require('discordjs-functions-shortcuts');
+  * createServer('example.html');
  */
- declare module "createServer";
+ declare module "createSrvr";
  /**
-  * @example const createServer = require('discordjs-functions-shortcuts');
+  * @example //Generate a random port
+  * const generatePort = require('discordjs-functions-shortcuts');
+  * 
+ * generatePort; 
+ * 
+ * //Create a server
+ const createServer = require('discordjs-functions-shortcuts');
+
   * createServer('example.html');
   */
 declare module 'discordjs-functions-shortcuts';
